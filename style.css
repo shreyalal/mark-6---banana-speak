@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Roboto+Slab:wght@300&display=swap");
+
+:root {
+  --primary-color: #ffd55e;
+}
+body {
+  font-family: sans-serif, cursive;
+  width: 100%;
+  margin: 0px auto;
+}
+
+.header {
+  background-color: var(--primary-color);
+  text-align: center;
+  height: 10vh;
+  padding: 1rem;
+}
+
+.content {
+  padding: 1rem;
+  max-width: 650px;
+  margin: auto;
+}
+
+textarea {
+  width: 100%;
+  margin: auto;
+}
+#btn-translate {
+  margin: 1rem auto;
+  background-color: var(--primary-color);
+  border-radius: 0.5rem;
+  width: 100px;
+  height: 40px;
+  text-align: center;
+}
+#output-area {
+  border: 1px solid black;
+  height: 10vh;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: var(--primary-color);
+
+  padding: 1rem;
+}
+
+footer p {
+  font-size: medium;
+}
+
+footer h3 {
+  font-size: x-large;
+}
